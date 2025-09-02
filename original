@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог кроссовок</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #fafafa;
+      color: #222;
+      text-align: center;
+    }
+    h1 {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    .catalog {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .title {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .price {
+      margin-bottom: 15px;
+      font-size: 18px;
+      color: #444;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background: #0088cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #0077b5;
+    }
+  </style>
+</head>
+<body>
+  <h1>Оригинальные кроссовки <b>HOKA</b> и <b>BMAI</b></h1>
+  
+  <div class="catalog">
+    <div class="card">
+      <img src="<a href="https://iimg.su/i/H3DKLa"><img src="https://s.iimg.su/s/02/gH3DKLaxVSLjwktLcu1ZZyCEONjTDYqNTMCMpKA7.jpg"></a>" alt="Кроссовки">
+      <div class="title">Вот такие</div>
+      <div class="price">7 990 ₽</div>
+      <a href="tg://resolve?domain=alexanderbazhin" class="btn">Купить</a>
+    </div>
+    
+    <div class="card">
+      <img src="<a href="https://iimg.su/i/2AgoWN"><img src="https://s.iimg.su/s/02/g2AgoWNxAcdeLyUbsPJQ0XbB0wK0m3BVhdi75UN8.jpg"></a>" alt="Кроссовки">
+      <div class="title">Или такие</div>
+      <div class="price">24 990 ₽</div>
+      <a href="tg://resolve?domain=alexanderbazhin" class="btn">Купить</a>
+    </div>
+    
+    <div class="card">
+      <img src="<a href="https://iimg.su/i/0EWqb4"><img src="https://s.iimg.su/s/02/g0EWqb4xkYykQTQHVqfwtIeafjShK6pzqtsZAPE0.jpg"></a>" alt="Кроссовки">
+      <div class="title">На крайняк эти</div>
+      <div class="price">39 990 ₽</div>
+      <a href="tg://resolve?domain=alexanderbazhin" class="btn">Купить</a>
+    </div>
+    
+    <div class="card">
+      <img src="<a href="https://iimg.su/i/VO0647"><img src="https://s.iimg.su/s/02/gVO0647xZDsmMEftKZddun8vGzGh6zBLpGsTyzXt.jpg"></a>" alt="Кроссовки">
+      <div class="title">Ещё эти есть</div>
+      <div class="price">49 990 ₽</div>
+      <a href="tg://resolve?domain=alexanderbazhin" class="btn">Купить</a>
+    </div>
+  </div>
+</body>
+</html>
